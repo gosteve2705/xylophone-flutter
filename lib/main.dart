@@ -27,6 +27,7 @@ class XylophoneApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -36,7 +37,7 @@ class XylophoneApp extends StatelessWidget {
               createKey(soundNumber: 3, color: Colors.yellow),
               createKey(soundNumber: 4, color: Colors.green),
               createKey(soundNumber: 5, color: Colors.teal),
-              createKey(soundNumber: 6, color: Colors.blue),
+              createKey(soundNumber: 6:, color: Colors.blue),
               createKey(soundNumber: 7, color: Colors.purple)
             ],
           ),
