@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'package:audioplayers/audio_cache.dart';
@@ -16,48 +17,70 @@ class XylophoneApp extends StatelessWidget {
       home: Scaffold(
         body: SafeArea(
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              FlatButton(
-                color: Colors.red,
-                onPressed: () {
-                  playSound(1);
-                },
+              Expanded(
+                child: FlatButton(
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  color: Colors.red,
+                  onPressed: () {
+                    playSound(1);
+                  },
+                ),
               ),
-              FlatButton(
-                color: Colors.deepOrange,
-                onPressed: () {
-                  playSound(2);
-                },
+              Expanded(
+                child: FlatButton(
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  color: Colors.deepOrange,
+                  onPressed: () {
+                    playSound(2);
+                  },
+                ),
               ),
-              FlatButton(
-                color: Colors.yellow,
-                onPressed: () {
-                  playSound(3);
-                },
+              Expanded(
+                child: FlatButton(
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  color: Colors.yellow,
+                  onPressed: () {
+                    playSound(3);
+                  },
+                ),
               ),
-              FlatButton(
-                color: Colors.green,
-                onPressed: () {
-                  playSound(4);
-                },
+              Expanded(
+                child: FlatButton(
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  color: Colors.green,
+                  onPressed: () {
+                    playSound(4);
+                  },
+                ),
               ),
-              FlatButton(
-                color: Colors.blueGrey,
-                onPressed: () {
-                  playSound(5);
-                },
+              Expanded(
+                child: FlatButton(
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  color: Colors.blueGrey,
+                  onPressed: () {
+                    playSound(5);
+                  },
+                ),
               ),
-              FlatButton(
-                color: Colors.blue,
-                onPressed: () {
-                  playSound(6);
-                },
+              Expanded(
+                child: FlatButton(
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  color: Colors.blue,
+                  onPressed: () {
+                    playSound(6);
+                  },
+                ),
               ),
-              FlatButton(
-                color: Colors.purple,
-                onPressed: () {
-                  playSound(7);
-                },
+              Expanded(
+                child: FlatButton(
+                  materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  color: Colors.purple,
+                  onPressed: () {
+                    playSound(7);
+                  },
+                ),
               )
             ],
           ),
